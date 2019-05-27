@@ -6,8 +6,8 @@ function HeaderTitle(props) {
     return(
        <div className='header-title'>
            <h3>{props.heading}</h3>
-           <p>{props.text}</p>
-           <p>26 Jan</p>
+           <p class='text-color'>{props.text}</p>
+           <p class='text-color'> &#8226; {props.date}</p>
        </div> 
     )
 }

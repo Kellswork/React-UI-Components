@@ -13,7 +13,7 @@ function HeaderContainer() {
     <div className="header-container">
         <ImageThumbnail imageSrc={imageSrc} />
       <div className="header-content">
-        <HeaderTitle heading="Lambda School" text="@LambdaSchool" />
+        <HeaderTitle heading="Lambda School" text="@LambdaSchool" date='26 jan' />
         <HeaderContent text={textContent} />
       </div>
     </div>
