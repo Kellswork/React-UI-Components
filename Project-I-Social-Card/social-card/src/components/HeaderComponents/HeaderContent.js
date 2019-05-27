@@ -1,9 +1,9 @@
 import React from 'react';
 import './Header.css';
 
-function HeaderContent(props) {
+function HeaderContent({text}) {
   return(
-    <p className='text-content'>{props.text}</p>
+    <p className='text-content'>{text}</p>
   )
 }
 

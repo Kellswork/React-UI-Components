@@ -1,10 +1,10 @@
 import React from "react";
 import "./Header.css";
 
-function ImageThumbnail(props) {
+function ImageThumbnail({imageSrc}) {
   return (
     <div className="header-logo">
-      <img src={props.imageSrc} alt="lambda logo" />
+      <img src={imageSrc} alt="lambda logo" />
     </div>
   );
 }

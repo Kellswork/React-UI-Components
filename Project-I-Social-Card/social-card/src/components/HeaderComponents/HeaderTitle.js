@@ -1,13 +1,13 @@
 import React from 'react';
 import './Header.css';
 
-function HeaderTitle(props) {
+function HeaderTitle({heading, text, date}) {
 
     return(
        <div className='header-title'>
-           <h3>{props.heading}</h3>
-           <p class='text-color'>{props.text}</p>
-           <p class='text-color'> &#8226; {props.date}</p>
+           <h3>{heading}</h3>
+           <p class='text-color'>{text}</p>
+           <p class='text-color'> &#8226; {date}</p>
        </div> 
     )
 }
