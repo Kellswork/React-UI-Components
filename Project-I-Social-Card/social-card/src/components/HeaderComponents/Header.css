@@ -1,1 +1,18 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+}
+
+.header-logo img {
+height: 100px;
+}
+
+.header-title {
+display: flex;
+align-items: baseline;
+padding: 13px 0px;
+}
+
+.header-title p{
+    padding-left: 10px;
+}
