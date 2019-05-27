@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.css";
-import ImageThumbnail from "../HeaderComponents/ImageThumbnail";
-import HeaderTitle from "../HeaderComponents/HeaderTitle";
-import HeaderContent from "../HeaderComponents/HeaderContent";
+import ImageThumbnail from "./ImageThumbnail";
+import HeaderTitle from "./HeaderTitle";
+import HeaderContent from "./HeaderContent";
 
 const { textContent, imageSrc, heading, text, date } = {
   textContent: `Let's learn react by building simple interfaces with components. Don't try to overthink it, just keep it simple and fun. Once you feel comfortable using components, you are well on your way to mastering react!`,
