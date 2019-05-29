@@ -1,0 +1,19 @@
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    color: grey;
+    padding-left: 55px;
+}
+
+i.far, i.fas {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: grey;
+}
+
+span {
+    padding-left: 10px;
+}

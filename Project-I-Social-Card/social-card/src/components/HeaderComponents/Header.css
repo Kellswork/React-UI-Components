@@ -1,1 +1,27 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.header-logo img {
+height: 100px;
+}
+
+.header-title {
+display: flex;
+align-items: baseline;
+padding: 13px 0px;
+}
+
+.header-title p{
+    padding-left: 10px;
+}
+
+.text-content {
+    padding-right: 30px;
+}
+
+.text-color {
+    color: grey;
+}
